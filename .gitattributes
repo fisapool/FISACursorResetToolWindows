@@ -1,0 +1,35 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# PowerShell scripts
+*.ps1 text eol=crlf
+*.psm1 text eol=crlf
+*.psd1 text eol=crlf
+
+# Batch scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Documents
+*.md text diff=markdown
+*.txt text
+LICENSE text
+
+# Configs
+.gitattributes text
+.gitignore text
+*.json text
+*.yml text
+*.yaml text
+*.config text
+
+# Binary files
+*.exe binary
+*.dll binary
+*.pdb binary
+*.zip binary
+*.7z binary
+*.ico binary
+*.png binary
+*.jpg binary
+*.gif binary 

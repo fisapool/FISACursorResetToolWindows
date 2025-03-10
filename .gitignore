@@ -1,0 +1,61 @@
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# PowerShell
+*.ps1.log
+*.psm1.log
+*.psd1.log
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Debug logs
+debug.log
+*.debug
+logs/
+debug/
+
+# Application specific
+cursor-updater/
+storage.json.bak
+*.old
+*.backup
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Package managers
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build output
+dist/
+build/
+out/
+
+# Personal files
+TODO.md
+NOTES.md 
