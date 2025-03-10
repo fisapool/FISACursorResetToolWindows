@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Create directory structure
 $baseDir = $PSScriptRoot
 if (-not $baseDir) {
@@ -182,3 +183,19 @@ $Shortcut.Save()
 
 Write-Host "✅ Setup completed successfully!"
 Write-Host "You can now run 'Cursor Reset' shortcut to start the tool."
+=======
+# Setup script for FISA Cursor Reset Tool
+$ErrorActionPreference = 'Stop'
+
+# Create desktop shortcut
+$WshShell = New-Object -comObject WScript.Shell
+$Shortcut = $WshShell.CreateShortcut("$env:USERPROFILE\Desktop\FISA Cursor Reset.lnk")
+$Shortcut.TargetPath = "$PSScriptRoot\reset.bat"
+$Shortcut.WorkingDirectory = "$PSScriptRoot"
+$Shortcut.IconLocation = "shell32.dll,131"
+$Shortcut.Save()
+
+Write-Host "✅ Setup completed successfully!" -ForegroundColor Green
+Write-Host "You can now use the shortcut on your desktop." -ForegroundColor Yellow
+pause 
+>>>>>>> 28e8a8c164d66a7ec0359f699fdfe83d80ecd2af

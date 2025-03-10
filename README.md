@@ -28,7 +28,10 @@ A terminal-based interface for managing Cursor AI installation and configuration
 ## Installation
 
 ### Prerequisites:
+<<<<<<< HEAD
 - Windows 10/11
+=======
+>>>>>>> 28e8a8c164d66a7ec0359f699fdfe83d80ecd2af
 - PowerShell or Command Prompt (Admin)
 
 ### Method 1: PowerShell (Recommended)
@@ -38,11 +41,16 @@ git clone https://github.com/fisapool/FISACursorResetToolWindows.git
 cd FISACursorResetToolWindows
 
 # Run setup
+<<<<<<< HEAD
 Right-click setup.ps1 and select "Run with PowerShell"
+=======
+.\setup.ps1
+>>>>>>> 28e8a8c164d66a7ec0359f699fdfe83d80ecd2af
 ```
 
 ### Method 2: Manual Download
 1. Visit [FISACursorResetToolWindows](https://github.com/fisapool/FISACursorResetToolWindows)
+<<<<<<< HEAD
 2. Download the repository as ZIP
 3. Extract the ZIP file
 4. Right-click `setup.ps1` and select "Run with PowerShell"
@@ -57,6 +65,11 @@ FISACursorResetToolWindows/
 │   └── launcher.ps1   # Admin launcher
 └── Cursor Reset.lnk   # Desktop shortcut
 ```
+=======
+2. Download the repository
+3. Extract files
+4. Run `setup.ps1` as Administrator
+>>>>>>> 28e8a8c164d66a7ec0359f699fdfe83d80ecd2af
 
 ## Verification Steps
 After downloading:
